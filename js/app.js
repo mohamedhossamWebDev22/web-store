@@ -120,3 +120,11 @@ class website{
 
 let websiteV = document.getElementById('inHTML');
 
+let websiteObj = new website();
+
+var homeBtn = document.getElementById('home'),
+two = document.getElementsByClassName('two');
+
+homeBtn.onclick = function (){websiteObj.home();};
+
+window.onload = function (){websiteObj.home();};

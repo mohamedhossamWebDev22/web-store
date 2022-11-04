@@ -25,27 +25,27 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" id="home" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <hr class="m-1">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Novels</a>
+                        <a class="nav-link error" onclick="websiteObj.elsePage();" href="#">Novels</a>
                     </li>
                     <hr class="m-1">
-                    <div class="nav-item">
-                        <a href="#" class="nav-link">Books</a>
-                    </div>
+                    <li class="nav-item">
+                        <a class="nav-link error" onclick="websiteObj.elsePage();" href="#">Books</a>
+                    </li>
                     <hr class="m-1">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="sc" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Courses
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Coding</a>
-                            <a class="dropdown-item" href="#">Voice over</a>
+                            <a class="dropdown-item" onclick="websiteObj.elsePage();" href="#">Coding</a>
+                            <a class="dropdown-item" onclick="websiteObj.elsePage();" href="#">Voice over</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Languages</a>
-                            <a href="#" class="dropdown-item">Quran Karem</a>
+                            <a class="dropdown-item" onclick="websiteObj.elsePage();" href="#">Languages</a>
+                            <a href="#" onclick="websiteObj.elsePage();" class="dropdown-item">Quran Karem</a>
                         </div>
                     </li>                    
                 </ul>              
