@@ -2,6 +2,6 @@ html, body {
   scroll-behavior: smooth;
 }
 
-hr {
-  color: white;
+.ul {
+  text-decoration: underline;
 }/*# sourceMappingURL=style.css.map */
