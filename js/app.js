@@ -101,8 +101,22 @@ class website{
                 </div>
             </div>
         </div>`,
-        this.two = ''
+        this.two = `<div class="h-100 w-100 p-5 bg-dark">
+        <div class="container p-5 text-center">
+            <img src="./imgs/error.png" width="200px" class="p-1 rounded">
+            <h1 class="p-5 text-light">Page not found</h1>
+        </div>
+    </div>`
+    }
+
+    home(){
+        websiteV.innerHTML = this.one;
+    }
+
+    elsePage(){
+        websiteV.innerHTML = this.two;
     }
 }
 
 let websiteV = document.getElementById('inHTML');
+
